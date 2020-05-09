@@ -1,10 +1,10 @@
 package com.github.ymaniz09.mvi.ui.auth
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.github.ymaniz09.mvi.R
+import com.github.ymaniz09.mvi.ui.BaseActivity
 
-class AuthActivity : AppCompatActivity() {
+class AuthActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

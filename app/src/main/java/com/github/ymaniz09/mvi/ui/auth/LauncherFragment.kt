@@ -10,7 +10,7 @@ import androidx.navigation.fragment.findNavController
 import com.github.ymaniz09.mvi.R
 import kotlinx.android.synthetic.main.fragment_launcher.*
 
-class LauncherFragment : Fragment() {
+class LauncherFragment : BaseAuthFragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
