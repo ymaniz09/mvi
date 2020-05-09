@@ -1,11 +1,9 @@
 package com.github.ymaniz09.mvi.ui.auth
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
 import com.github.ymaniz09.mvi.R
 
 class LoginFragment : BaseAuthFragment() {
@@ -17,5 +15,4 @@ class LoginFragment : BaseAuthFragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_login, container, false)
     }
-
 }
